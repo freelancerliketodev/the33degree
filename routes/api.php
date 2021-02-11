@@ -57,4 +57,3 @@ Route::group(['middleware' => ['auth:api']], function () {
 //     $user->balance = $user->getBalance();
 //     return $user;
 // });
-// just
