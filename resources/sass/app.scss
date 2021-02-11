@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.casher_box{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    .casher_balance{
+        margin-top: 7px;
+        float: right;
+        margin-right: 20px;
+    }
+    .deposit_btn{
+        float: right;
+    }
+}
